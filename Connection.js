@@ -4,6 +4,6 @@ var url = "mongodb://localhost:27017/";
 MongoClient.connect(url, (e,db) =>
 {
     if(e) throw e;
-    console.log("connected to mongodb");
+    console.log("connected to mongodb Hello World");
     db.close();
 })
